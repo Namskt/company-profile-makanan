@@ -26,12 +26,10 @@ const MenuNavbar = [
 
 export default function Navbar() {
   return (
-    <div className="fixed w-full">
+    <div className="fixed w-full bg-indigo-100 z-50">
       <div className="container mx-auto flex justify-between items-center py-4">
         <div>
-          <h1 className="text-5xl font-bold text-indigo-800 francois">
-            HEUBOWL
-          </h1>
+          <h1 className="text-5xl font-bold text-white francois">HEUBOWL</h1>
         </div>
         <ul className="flex justify-center items-center gap-10">
           {MenuNavbar.map((i, index) => (
