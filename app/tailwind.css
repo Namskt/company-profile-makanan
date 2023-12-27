@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Francois+One&family=Lobster+Two:ital,wght@1,400;1,700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.lobster {
+  font-family: "Lobster Two", sans-serif;
+}
+.francois {
+  font-family: "Lobster Two", sans-serif;
+}
