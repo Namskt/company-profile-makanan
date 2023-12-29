@@ -26,7 +26,7 @@ const MenuNavbar = [
 
 export default function Navbar() {
   return (
-    <div className="fixed w-full bg-indigo-100 z-50">
+    <div className="fixed w-full z-50">
       <div className="container mx-auto flex justify-between items-center py-4">
         <div>
           <h1 className="text-5xl font-bold text-white francois">HEUBOWL</h1>
